@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.container {
+    padding: 90px 165px;
+}
+
+.container-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+    width: 100%;
+    height: 155px;
+}
+
+.container-bot {
+    position: relative;
+    margin: auto;
+    width: 1115px;
+    height: 535px;
+}
+
+.title {
+    font-weight: 400;
+    color: #4e4e56;
+    font-size: 35px;
+}
+
+.powered-by {
+    font-weight: 600;
+    color: #525469;
+    font-size: 35px;
+}
+
+.desc {
+    width: 505px;
+    text-align: center;
+    font-weight: 200;
+    color: #838383;
+    font-size: 15px;
+}
+
+.team-builder {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: auto;
+    padding-top: 35px;
+    padding: 35px 32px;
+    width: 350px;
+    height: 250px;
+    transform: translateX(-50%);
+    border-radius: 8px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    background-color: #ffffff;
+    box-shadow: 3px 5px 30px 5px rgba(114, 114, 114, 0.4);
+}
+
+.team-builder-title {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #4f4e5c;
+}
+
+.team-builder-desc {
+    font-weight: 200;
+    font-size: 15px;
+    color: #838383;
+}
+
+.team-builder-icon {
+    float: right;
+    margin-top: 1.066667rem;
+    ;
+}
+
+.supervisor {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding-top: 35px;
+    padding: 35px 32px;
+    width: 350px;
+    height: 250px;
+    transform: translateY(-50%);
+    border-radius: 8px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    background-color: #ffffff;
+    box-shadow: 3px 5px 30px 5px rgba(114, 114, 114, 0.4);
+}
+
+.supervisor-title {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #4f4e5c;
+}
+
+.supervisor-desc {
+    font-weight: 200;
+    font-size: 15px;
+    color: #838383;
+}
+
+.supervisor-icon {
+    float: right;
+    margin-top: 1.066667rem;
+}
+
+.calculator {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding-top: 35px;
+    padding: 35px 32px;
+    width: 350px;
+    height: 250px;
+    transform: translateY(-50%);
+    border-radius: 8px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    background-color: #ffffff;
+    box-shadow: 3px 5px 30px 5px rgba(114, 114, 114, 0.4);
+}
+
+.calculator-title {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #4f4e5c;
+}
+
+.calculator-desc {
+    font-weight: 200;
+    font-size: 15px;
+    color: #838383;
+}
+
+.calculator-icon {
+    float: right;
+    margin-top: 1.066667rem;
+    ;
+}
+
+.karma {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding-top: 35px;
+    padding: 35px 32px;
+    width: 350px;
+    height: 250px;
+    transform: translateX(-50%);
+    border-radius: 8px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    background-color: #ffffff;
+    box-shadow: 3px 5px 30px 5px rgba(114, 114, 114, 0.4);
+}
+
+.karma-title {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #4f4e5c;
+}
+
+.karma-desc {
+    font-weight: 200;
+    font-size: 15px;
+    color: #838383;
+}
+
+.karma-icon {
+    float: right;
+    margin-top: 1.066667rem;
+    ;
+}
+
+@media only screen and (max-width: 960px) {
+    body {
+        overflow: scroll;
+    }
+    .container {
+        padding: 90px 30px;
+    }
+    .desc {
+        text-align: center;
+        width: 295px;
+    }
+    .title {
+        text-align: center;
+        font-size: 20px;
+        width: 290px;
+    }
+    .powered-by {
+        text-align: center;
+        font-size: 20px;
+        width: 290px;
+    }
+    .container-bot {
+        position: initial;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 315px;
+    }
+    .team-builder {
+        margin: auto;
+        width: 300px;
+        position: initial;
+        transform: translateX(0);
+    }
+    .calculator {
+        margin: auto;
+        width: 300px;
+        position: initial;
+        transform: translateX(0);
+    }
+    .karma {
+        margin: auto;
+        width: 300px;
+        position: initial;
+        transform: translateX(0);
+    }
+    .supervisor {
+        margin: auto;
+        width: 300px;
+        position: initial;
+        transform: translateX(0);
+    }
+}
