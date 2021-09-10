@@ -64,7 +64,7 @@ body {
     border-radius: 8px;
     border-top: 4px solid hsl(0, 78%, 62%);
     background-color: #ffffff;
-    box-shadow: 3px 5px 30px 5px rgba(114, 114, 114, 0.4);
+    box-shadow: 3px 5px 15px 3px rgba(114, 114, 114, 0.3);
 }
 
 .team-builder-title {
@@ -97,7 +97,7 @@ body {
     border-radius: 8px;
     border-top: 4px solid hsl(180, 62%, 55%);
     background-color: #ffffff;
-    box-shadow: 3px 5px 30px 5px rgba(114, 114, 114, 0.4);
+    box-shadow: 3px 5px 15px 3px rgba(114, 114, 114, 0.3);
 }
 
 .supervisor-title {
@@ -129,7 +129,7 @@ body {
     border-radius: 8px;
     border-top: 4px solid hsl(212, 86%, 64%);
     background-color: #ffffff;
-    box-shadow: 3px 5px 30px 5px rgba(114, 114, 114, 0.4);
+    box-shadow: 3px 5px 15px 3px rgba(114, 114, 114, 0.3);
 }
 
 .calculator-title {
@@ -162,7 +162,7 @@ body {
     border-radius: 8px;
     border-top: 4px solid hsl(34, 97%, 64%);
     background-color: #ffffff;
-    box-shadow: 3px 5px 30px 5px rgba(114, 114, 114, 0.4);
+    box-shadow: 3px 5px 15px 3px rgba(114, 114, 114, 0.3);
 }
 
 .karma-title {
